@@ -29,6 +29,7 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
+#! Sempre que creem una app posar-ho aqui per indicar-ho a django
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -37,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'prova',
 ]
 
 MIDDLEWARE = [
